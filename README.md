@@ -7,32 +7,6 @@ Es zeigt den Datenfluss vom ERP-System über eine Integrationsplattform (Lobster
 
 ---
 
-## 📦 Projektstruktur
-.
-├── api/ # API-Schicht (FastAPI-Endpoints)
-│ ├── main.py # FastAPI-App
-│ └── routers/
-│ └── produktion.py # Produktions-Endpoint
-├── core/ # Geschäftslogik
-│ └── services/
-│ └── produktion_services.py # Orchestrierung mit Retry-Logik
-├── maschine/ # Maschinensimulation
-│ ├── fraeser.py # Fräsmaschine
-│ └── schweiss.py # Schweissmaschine
-├── models/ # Pydantic-Modelle
-│ ├── proalpha.py # ERPOrder
-│ ├── produkte/
-│ │ ├── lobster.py # ProductLobster (Basis)
-│ │ ├── fraeser.py # FraeserParams
-│ │ └── schweiss.py # SchweissParams
-│ ├── produktion_status.py # ProduktionStatus
-│ └── production_response.py # ProduktionResponse
-├── requirements.txt
-├── run.py # Startskript
-└── README.md
-
-
----
 
 ## 🚀 Installation & Start
 
