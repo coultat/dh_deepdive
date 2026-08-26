@@ -1,4 +1,4 @@
-# D+H Mechatronic AG – Produktionsintegration
+# Deepdive
 
 **Deep Dive – Integration Engineer**
 
@@ -101,3 +101,11 @@ Response
     "maschineStatus": "OK"
   }
 }
+
+Technologien:
+
+- Python 3.12+
+- FastAPI – Web-Framework
+- Pydantic v2 – Datenvalidierung
+- Uvicorn – ASGI-Server
+- Ruff – Linting & Formatierung
