@@ -46,7 +46,7 @@ uvicorn api.main:app --reload
 Startet einen Produktionsauftrag. Die Maschine (Fräser oder Schweiss) wird automatisch anhand des Produktnamens ausgewählt.
 Request-Body (JSON)
 
-
+```bash
 {
   "auftragsnummer": "PO-2026-001",
   "auftragszeit": "2026-08-26T10:00:00",
@@ -56,9 +56,9 @@ Request-Body (JSON)
   "kunde": "BMW",
   "kunde_id": "K-123"
 }
-
+``
 Response
-
+```bash
 {
   "status": "erfolgreich",
   "maschine": "Fräser",
@@ -75,7 +75,7 @@ Response
     "maschineStatus": "OK"
   }
 }
-
+``
 Technologien:
 
 - Python 3.12+
