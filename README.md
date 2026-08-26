@@ -15,11 +15,11 @@ Es zeigt den Datenfluss vom ERP-System über eine Integrationsplattform (Lobster
 ```bash
 git clone <repo-url>
 cd dh_deepdive
-
+```
 
 Virtuelle Umgebung erstellen 
 
-```
+```bash
 python -m venv venv
 source venv/bin/activate      # Linux/Mac
 venv\Scripts\activate         # Windows
@@ -27,19 +27,19 @@ venv\Scripts\activate         # Windows
 
 Abhängigkeiten installieren
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
 Server starten
 
-```
+```bash
 python run.py
 ```
 
 Oder direkt mit uvicorn
 
-```
+```bash
 uvicorn api.main:app --reload
 ```
 
