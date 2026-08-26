@@ -56,7 +56,7 @@ Request-Body (JSON)
   "kunde": "BMW",
   "kunde_id": "K-123"
 }
-``
+```
 Response
 ```bash
 {
@@ -75,7 +75,7 @@ Response
     "maschineStatus": "OK"
   }
 }
-``
+```
 Technologien:
 
 - Python 3.12+
